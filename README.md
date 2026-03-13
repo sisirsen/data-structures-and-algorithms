@@ -1,6 +1,10 @@
-# This repository contains my daily practice of Data Structures and Algorithms.
+# data-structures-and-algorithms
 
-# Here most of the problems are from "Leetcode".
+This repository contains my daily practice of Data Structures and Algorithms.
 
-# Languages Used:<br/>
-(+) JavaScript
+Here most of the problems are from "Leetcode".
+
+Languages Used:
+JavaScript
+
+Creator:-Sisir Sen

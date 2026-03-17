@@ -5,7 +5,8 @@ This repository contains my daily practice of Data Structures and Algorithms.
 Here most of the problems are from "Leetcode".
 
 Language Used:
-JavaScript.
+1.JavaScript.
+2.Java(Main language from 17-3-26).
 
 Problems solved by difficulty:
 
@@ -13,4 +14,4 @@ Problems solved by difficulty:
 2.Medium
 3.Hard
 
-# Creator:-Sisir Sen
+# Author:-Sisir Sen.

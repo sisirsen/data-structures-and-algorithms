@@ -38,15 +38,14 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
-        int l = 0;
-    for (int i = 1; i<nums.length; i++) {
-    if (nums[i]!=nums[l] ) {
-      l++;
-      nums[l]=nums[i];
-    }
-     
-    }
-    return l+1;
+     int l=0;
+     for (int i = 1; i < nums.length; i++) {
+      if(nums[i]!=nums[l]){
+        l++;
+        nums[l]=nums[i];
+      }
+     }
+     return l+1;
     }
 
     public static void main(String[] args) {

@@ -36,7 +36,6 @@ public class ContainsDuplicate {
 
   public static boolean containsDuplicate(int[] nums){
     Arrays.sort(nums);
-    // int i=0;
     for (int j = 0; j < nums.length-1; j++) {
       if (nums[j]==nums[j+1]) {
         return true;

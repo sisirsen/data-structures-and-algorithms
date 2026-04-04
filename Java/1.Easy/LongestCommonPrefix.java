@@ -17,15 +17,16 @@ Explanation: There is no common prefix among the input strings.
 
 
 
-// public class LongestCommonPrefix {
+public class LongestCommonPrefix {
 
-// public static String longestCommonPrefix(int[] arr){
+public static String longestCommonPrefix(String[] strs){
+  
 
 
-// }
+}
 
-// public static void main(String[] args) {
-//   System.out.println(longestCommonPrefix(new int["flower","flow","flight"]));
-//   System.out.println(longestCommonPrefix(new int[]{}));
-// }
-// }
+public static void main(String[] args) {
+  System.out.println(longestCommonPrefix(new String[]{"flower","flow","flight"}));
+  System.out.println(longestCommonPrefix(new String[]{"dog","racecar","car"}));
+}
+}

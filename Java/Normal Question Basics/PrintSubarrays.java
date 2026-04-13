@@ -1,11 +1,10 @@
 public class PrintSubarrays {
   public static void PrintSubarrays(int arr[]){
     int ts=0;
-    int sum=0;
-
+    
     for (int i = 0; i < arr.length; i++) {
-      for (int j = i; j < arr.length-1; j++) {
-        for (int k = arr[i]; k <=arr[j]; k++) {
+      for (int j = i; j < arr.length; j++) {
+        for (int k = i; k <=j; k++) {
           System.out.print(arr[k]+" ");
         }
         ts++;

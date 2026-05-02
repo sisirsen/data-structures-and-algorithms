@@ -1,5 +1,3 @@
-package Foundation;
-
 public class MaxElementInArray{
 
 public static int maxElement(int[] arr) {
